@@ -26,7 +26,7 @@ WHERE E.DEPT_ID = D.DEPT_ID;
 
 
 -- ANSI 표준구문
--- 조이 처리를 위한 별도의 구문을 FROM절에 작성함
+-- 조인 처리를 위한 별도의 구문을 FROM절에 작성함
 -- 모든 DBMS 가 공통으로 사용하는 표준 구문임.
 SELECT *
 FROM EMPLOYEE
