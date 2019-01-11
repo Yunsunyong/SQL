@@ -1,4 +1,4 @@
---DAY8
+﻿--DAY8
  
 -- 다중행 서브쿼리에 사용할 수 있는 연산자
 -- IN/NOT IN, ANY, ALL
@@ -196,8 +196,3 @@ FROM (SELECT *
           FROM EMPLOYEE
           ORDER BY SALARY DESC) --정렬 후에 ROWNUM 이 부여됨
 WHERE ROWNUM < 4;
-
-
-
-
-
