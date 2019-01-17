@@ -1,4 +1,4 @@
--- VIEW (뷰)
+﻿-- VIEW (뷰)
 
 /*
 SELECT 쿼리의 실행 결과를 보여주는 화면
@@ -16,7 +16,7 @@ OR REPLACE : 덮어쓰기 (VIEW가 있으면)
 NOFORCE(기본값) : 테이블이 존재하는 경우에만 뷰 생성 가능
 CREATE [OR REPLACE] [FORCE | NOFORCE(기본)] VIEW 뷰이름
 AS 서브쿼리
-[WITH CEHCK OPTION [CONSTRAINT 이름]]
+[WITH CHECK OPTION [CONSTRAINT 이름]]
 [WITH READ ONLY [CONSTRAINT 이름]];
 */
 
